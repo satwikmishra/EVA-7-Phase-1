@@ -12,7 +12,7 @@ a) The kernel is slid over the input image and the dot product of the kernel mat
 
 b) The computational cost in the case of 3 * 3 is better than other odd-sized kernels. For example we want a 1 * 1 output pixel from a 5 * 5 ( that is the receptive field of the final output pixel must be 5 * 5 ) then we could use a 5 *  5 which would have a total of 25 parameters or we could go for two 3 * 3 kernel matrices which would have a total of 18 parameters. Since the number of parameters is less in case 2 and subsequently the computational cost we prefer 3 * 3 kernels. A doubt might surface here. Why not a 1 * 1 kernel then? In the case of features extracted in this case, they would be fine-grained and local, with no consideration for the neighbouring pixels.
 
-c) Originally, NVIDIA GPU's were optimized for 3 * 3 kernels. When 3 * 3 kernels were widely, for this reason, NVIDIA started producing more GPU's optimized for 3 * 3 kernels, and so on. 
+c) Originally, NVIDIA GPU's were optimized for 3 * 3 kernels. When 3 * 3 kernels were widely, for this reason, NVIDIA started producing more GPU's optimized for 3 * 3 kernels. This led to a cycle of people using the standard 3 * 3 kernel and NVIDIA producing more GPU's which are optimized for 3 * 3 kernels. 
 
 ## 3. How many times do we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 (type each layer output like 199x199 > 197x197...)
 
