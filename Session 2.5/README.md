@@ -58,11 +58,11 @@ We define a class class Network(nn.Module). Then we use super().init() run the i
 # Training Log and Loss
 
 We take the loss of both MNIST predicted label and the loss from the addition of the MNIST label with the random number. Please view the logs below to infer the same. 
-Multi-class classification makes the assumption that each sample is assigned to one and only one label. 
+Multi-class classification makes the assumption that each sample is assigned to one and only one label.
 
 Here we use Negative Log-Likelihood Loss (NLL) which works something analogous to this:
 
-Whenever the network assigns high confidence at the correct class, the unhappiness is low, but when the network assigns low confidence at the correct class, the unhappiness is high.Therefore the network not only ensures that it has the right prediction but also cares about the prediction score/probability value of it being right. 
+Whenever the network assigns high confidence at the correct class, the unhappiness is low, but when the network assigns low confidence at the correct class, the unhappiness is high.Therefore the network not only ensures that it has the right prediction but also cares about the prediction score/probability value of it being right. We can see the loss reducing as the number of epochs increase. This is the test loss that we're seeing below. 
 
 You can view a snippet of the log file below: 
 
@@ -72,6 +72,9 @@ You can view a snippet of the log file below:
 
 Please find the screenshots of the results below. The labels were predicted to almost 99% accuracy and the sum of the label with the random number also gives us a good accuracy. Kudos! 
 
-![alt text](https://github.com/satwikmishra/EVA-7-Phase-1/blob/main/Images/pred_1.PNG)
+![alt text](https://github.com/satwikmishra/EVA-7-Phase-1/blob/main/Images/example_4.PNG)
 
 ![alt text](https://github.com/satwikmishra/EVA-7-Phase-1/blob/main/Images/example_2.PNG)
+
+![alt text](https://github.com/satwikmishra/EVA-7-Phase-1/blob/main/Images/example_3.PNG)
+
