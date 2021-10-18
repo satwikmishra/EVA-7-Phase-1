@@ -14,6 +14,8 @@ The goal of backpropagation is to optimise the weights so that the accuracy of t
 
 ## Forward propagation
 
+![alt text](https://github.com/satwikmishra/EVA-7-Phase-1/blob/main/Images/snippet.PNG)
+
 A neural network with two inputs, two hidden neurons, two output neurons and bias = False. 
 
 
@@ -120,3 +122,10 @@ w8 = w8-learning_rate * ∂E_total/∂w8
 
 ## Graph from the excel sheet after changing the values of Learning Rate. 
 
+![alt text](https://github.com/satwikmishra/EVA-7-Phase-1/blob/main/Images/LR.PNG)
+
+## Understanding the LR 
+
+![alt text](https://github.com/satwikmishra/EVA-7-Phase-1/blob/main/Images/LR_result.PNG)
+
+In our example, the loss is slowly decreasing and it takes more time to converge for low learning rates and a steep decrease in loss is noticed when the learning rate increases from 0.1 to 2. So our objective is to have an optimal LR! 
