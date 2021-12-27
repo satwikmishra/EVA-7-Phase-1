@@ -7,3 +7,8 @@ To implement a Spatial transformer on CIFAR-10 dataset for 50 epochs and a expla
 ### Vision transformer
 
 Explain Vision Transformers
+
+### Team:
+Satwik Mishra
+
+Yuvaraj Venkataswamy
