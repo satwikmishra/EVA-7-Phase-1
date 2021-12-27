@@ -1,9 +1,8 @@
 ## Team
 
-Satwik Mishra
+Yuvaraj V (yuvaraj100493@gmail.com)
 
-Yuvaraj Venkataswamy
-
+Satwik Mishra (satwiksmishra@gmail.com)
 
 
 ## Assignment Part A
