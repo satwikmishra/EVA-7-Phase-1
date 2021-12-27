@@ -1,3 +1,11 @@
+## Team
+
+Satwik Mishra
+
+Yuvaraj Venkataswamy
+
+
+
 ## Assignment Part A
 
 ### Goals
